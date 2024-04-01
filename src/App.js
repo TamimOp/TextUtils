@@ -1,5 +1,5 @@
 import "./App.css";
-import About from "./Components/About";
+// import About from "./Components/About";
 import Navbar from "./Components/Navbar";
 import TextForms from "./Components/TextForms";
 import React, { useState } from "react";
