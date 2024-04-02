@@ -5,11 +5,13 @@ export default function TextForms(props) {
     console.log("Uppercase was Clicked");
     let newText = text.toUpperCase();
     setText(newText);
+    props.showAlert("Converted to uppercase", "success");
   };
   const handleLoClick = () => {
-    console.log("Uppercase was Clicked");
+    console.log("Lowecase was Clicked");
     let newText = text.toLowerCase();
     setText(newText);
+    props.showAlert("Converted to lowercase", "success");
   };
   const handleOnChange = (e) => {
     console.log("on change");
